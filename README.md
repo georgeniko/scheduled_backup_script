@@ -3,6 +3,6 @@ In this mini project the usage of a backup script is demonstrated. Let's imagine
 In order to make the sh script excecutable we must add the "#!/bin/bash" at the top. Also, in order to automate this procedure we will use crontab. The following syntax should be added to the crontab command list so as to backup every 24 hours:
 0 0 * * * usr/local/bin/backup.sh /home/project/important-documents /home/project
 
-![alt text](https://github.com/georgeniko/blob/main/scheduled_backup_script/output.png?raw=true)
+![alt text](https://github.com/georgeniko/scheduled_backup_script/blob/main/output.png?raw=true)
 
 This script was developed as part of a graded project for the IBM Data Engineering Professional Certificate on Coursera.
